@@ -1,5 +1,5 @@
 {% set name = "tty-cursor" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 8985019f9033c8b8d8fe100e39268e4caeb106285ec3b319510b436c7ceb2c5f
+  sha256: 79534185e6a777888d88628b14b6a1fdf5154a603f285f80b1753e1908e0bf48
 
 build:
   noarch: generic
